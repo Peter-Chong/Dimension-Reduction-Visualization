@@ -3,23 +3,26 @@
 ## Table of Contents  
 
 <!--ts-->
-   * [Importance of dimension reduction](#importance-of-dimension-reduction)
+   * [Importance of Dimension Reduction](#importance-of-dimension-reduction)
+   * [Importance of Visualization](#importance-of-visualization)
+   * [Dimension Reduction Approaches](#dimension-reduction-approaches)
+   * [Code and Resources Used](#code-and-resources-used)
 <!--te-->
 
-## Importance of dimension reduction
+## Importance of Dimension Reduction
 
 * Irrelevant features will worsen the performance of some machine learning algorithm
 * Avoids overfitting
 * Reduce storage space
 * By reducing the dimension down to 2D or 3D allow us to visualize the data
 
-## Importance of visualization
+## Importance of Visualization
 
 * It allows us to comprehend the huge amount of data
 * We might be able to notice properties that were not discovered before
 * We can form hypotheses based on the visualization
 
-## Dimension reduction approaches
+## Dimension Reduction Approaches
 
 There are two main types of dimension reduction techniques. Either by choosing the most important features or combine the existing features to create new features. In this repository, I will be using the latter technique only. It can further be broken down into two methods, linear and non-linear (manifold learning). 
 
