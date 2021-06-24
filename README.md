@@ -1,5 +1,7 @@
 # Dimension Reduction Visualization
 
+<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/F1.large.jpg" width="900" height="230" />
+
 ## Table of Contents  
 
 <!--ts-->
@@ -33,6 +35,7 @@ There are two main types of dimension reduction techniques. Either by choosing t
 
 **Programming Language:** Python  
 **Packages:** NumPy, pandas, plotly, scikit-learn  
-**Resources:**
+**Resources:**  
 https://towardsdatascience.com/dimensionality-reduction-for-data-visualization-pca-vs-tsne-vs-umap-be4aa7b1cb29  
-V.S, S., & Surendran, S. (2015). A Review of Various Linear and Non Linear Dimensionality Reduction Techniques.
+V.S, S., & Surendran, S. (2015). A Review of Various Linear and Non Linear Dimensionality Reduction Techniques.  
+Roweis, S. T. (2000). Nonlinear Dimensionality Reduction by Locally Linear Embedding. Science, 290(5500), 2323–2326.
