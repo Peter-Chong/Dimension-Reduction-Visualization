@@ -6,7 +6,7 @@
    * [Importance of Dimension Reduction](#importance-of-dimension-reduction)
    * [Importance of Visualization](#importance-of-visualization)
    * [Dimension Reduction Approaches](#dimension-reduction-approaches)
-   * [Principal Component Analysis (PCA)](#Principal-Component-Analysis-(PCA))
+   * [Principal Component Analysis (PCA)](#Principal-Component-Analysis-PCA)
    * [Code and Resources Used](#code-and-resources-used)
 <!--te-->
 
