@@ -33,7 +33,7 @@ The aim of PCA is to derive new variables that are linear combinations of the or
   * Easy to implement
 
 * **Disadvantages of PCA:**
-  * If data is non-linear, it will not well
+  * If data is non-linear, it will not work well
   * It is difficult to interpret as principal components are linear combinations of the original features
   * Does not work well on categorical variables
 
