@@ -33,6 +33,6 @@ There are two main types of dimension reduction techniques. Either by choosing t
 ## Code and Resources Used
 
 **Programming Language:** Python  
-**Packages:** NumPy, pandas, plotly, scikit-learn
+**Packages:** NumPy, pandas, plotly, scikit-learn  
 **Resources:**
 https://towardsdatascience.com/dimensionality-reduction-for-data-visualization-pca-vs-tsne-vs-umap-be4aa7b1cb29  
