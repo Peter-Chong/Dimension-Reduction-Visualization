@@ -23,9 +23,11 @@ There are two main types of dimension reduction techniques. Either by choosing t
 
 ## Principal Component Analysis (PCA)
 
-<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/newplot.png" />
+<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/pca_2d.png" />
 
-The aim of PCA is to derive new variables that are linear combinations of the original variables. It maximize the variance and produces uncorrelated projected distribution. PCA can be computed by performing eigendecomposition on the covariance matrix. The eigevectors represent the principal axes of maximum variance subspace and the eigenvalues represent the variance of projected inputs along principal axes. In our data, the first two principal components represents
+The aim of PCA is to derive new variables that are linear combinations of the original variables. It maximize the variance and produces uncorrelated projected distribution. PCA can be computed by performing eigendecomposition on the covariance matrix. The eigevectors represent the principal axes of maximum variance subspace and the eigenvalues represent the variance of projected inputs along principal axes. In our data, the first two principal components explained 36% of the variation.
+
+<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/pca_explained_var.png" />
 
 ## t-distributed Stochastic Neighbor Embedding (t-SNE)
 
