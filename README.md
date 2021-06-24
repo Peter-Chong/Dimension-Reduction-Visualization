@@ -6,6 +6,7 @@
    * [Importance of Dimension Reduction](#importance-of-dimension-reduction)
    * [Importance of Visualization](#importance-of-visualization)
    * [Dimension Reduction Approaches](#dimension-reduction-approaches)
+   * [Principal Component Analysis (PCA)](#Principal-Component-Analysis-(PCA))
    * [Code and Resources Used](#code-and-resources-used)
 <!--te-->
 
@@ -29,6 +30,8 @@ There are two main types of dimension reduction techniques. Either by choosing t
 * **Linear:** This method transforms the data to a low dimension space as a linear combination of the original variables. This is applicable when the data is in a linear subspace and the original variables will be replaced by a smaller set of variables. 
 * **Non-linear (manifold learning):** This method is applied when the original high dimensional data contains non-linear relationships. The lower dimensional representation of the data will be achieved while preserving the original distances between the data points.
 
+## Principal Component Analysis (PCA)
+
 
 ## Code and Resources Used
 
@@ -36,3 +39,4 @@ There are two main types of dimension reduction techniques. Either by choosing t
 **Packages:** NumPy, pandas, plotly, scikit-learn  
 **Resources:**
 https://towardsdatascience.com/dimensionality-reduction-for-data-visualization-pca-vs-tsne-vs-umap-be4aa7b1cb29  
+V.S, S., & Surendran, S. (2015). A Review of Various Linear and Non Linear Dimensionality Reduction Techniques.
