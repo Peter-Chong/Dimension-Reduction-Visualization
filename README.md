@@ -1,6 +1,10 @@
 # Dimension Reduction Visualization
 
+## Table of Contents  
 
+<!--ts-->
+   * [Importance of dimension reduction](#importance-of-dimension-reduction)
+<!--te-->
 
 ## Importance of dimension reduction
 
