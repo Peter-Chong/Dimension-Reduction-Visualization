@@ -29,6 +29,14 @@ The aim of PCA is to derive new variables that are linear combinations of the or
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/pca_explained_var.png" />
 
+* **Advantages of PCA:**
+  * Easy to implement
+
+* **Disadvantages of PCA:**
+  * If data is non-linear, it will not well
+  * It is difficult to interpret as principal components are linear combinations of the original features
+  * Does not work well on categorical variables
+
 ## t-distributed Stochastic Neighbor Embedding (t-SNE)
 
 ## Uniform Manifold Approximation and Projection (UMAP)
