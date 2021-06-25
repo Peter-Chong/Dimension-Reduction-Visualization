@@ -33,11 +33,28 @@ The aim of PCA is to derive new variables that are linear combinations of the or
   * Easy to implement
 
 * **Disadvantages of PCA:**
-  * If data is non-linear, it will not work well
-  * It is difficult to interpret as principal components are linear combinations of the original features
+  * Does not work well if data is non-linear
   * Does not work well on categorical variables
+  * It is difficult to interpret as principal components are linear combinations of the original features
 
 ## t-distributed Stochastic Neighbor Embedding (t-SNE)
+
+<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/tsne_2d.png" />
+
+t-SNE is a non-linear dimensionality reduction technique and it comprises three main stages. Firstly, t-SNE construct a probability distribution over pairs of points in the original (high) dimension. Similar points are assigned with a higher probability while dissimilar points are assigned with a lower probability. Secondly, t-SNE defines another probability distribution over the points over the points in a low dimension. Lastly, it minimizes the KL divergence between the two distributions with respect to the locations of the points. 
+
+Since our data has a high number of features (784) and it is highly recommended to use another dimensionality reduction method such as PCA to reduce the number of dimensions, we will be using PCA to reduce it to 50 principal components / features. 
+
+* **Advantages of PCA:**
+  * Handles non-linear data
+  * Preserve local structure well
+
+* **Disadvantages of PCA:**
+  * Computational complexity of O(n^2)
+    * Can be improved using Barnes-Hut approximation to O(nlogn)
+    * Or reduce number of dimensions beforehand by using other dimension reduction tools such as PCA or TruncatedSVD
+  * Needs to hypertune the parameters such as perplexity and max_iter
+  * Only works well for visualization purposes and not dimensionality reduction
 
 ## Uniform Manifold Approximation and Projection (UMAP)
 
