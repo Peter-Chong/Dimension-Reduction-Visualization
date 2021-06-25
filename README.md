@@ -45,11 +45,11 @@ t-SNE is a non-linear dimensionality reduction technique and it comprises three 
 
 Since our data has a high number of features (784) and it is highly recommended to use another dimensionality reduction method such as PCA to reduce the number of dimensions, we will be using PCA to reduce it to 50 principal components / features. 
 
-* **Advantages of PCA:**
+* **Advantages of t-SNE:**
   * Handles non-linear data
   * Preserve local structure well
 
-* **Disadvantages of PCA:**
+* **Disadvantages of t-SNE:**
   * Computational complexity of O(n^2)
     * Can be improved using Barnes-Hut approximation to O(nlogn)
     * Or reduce number of dimensions beforehand by using other dimension reduction tools such as PCA or TruncatedSVD
