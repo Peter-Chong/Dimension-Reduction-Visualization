@@ -20,7 +20,7 @@
 We will be using four different dimensionality reduction techniques on Fashion MNIST dataset.
 
 | Dimension Reduction Technique | Year Released | Linearity | Type |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | PCA | 1930 | Linear | Unsupervised |
 | LDA | 1936 | Linear | Supervised |
 | t-SNE | 2008 | Non-Linear | Unsupervised |
