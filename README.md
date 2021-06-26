@@ -27,7 +27,7 @@ There are two main types of dimension reduction techniques. Either by choosing t
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/pca_2d.png" />
 
-The aim of PCA is to derive new variables that are linear combinations of the original variables. It maximizes the variance and produces uncorrelated projected distribution. PCA can be computed by performing eigendecomposition on the covariance matrix. The eigenvectors represent the principal axes of maximum variance subspace and the eigenvalues represent the variance of projected inputs along the principal axes. In our data, the first two principal components explained 36% of the variation.
+PCA is a linear dimensionality reduction technique. The aim of PCA is to derive new variables that are linear combinations of the original variables. It maximizes the variance and produces uncorrelated projected distribution. PCA can be computed by performing eigendecomposition on the covariance matrix. The eigenvectors represent the principal axes of maximum variance subspace and the eigenvalues represent the variance of projected inputs along the principal axes. In our data, the first two principal components explained 36% of the variation.
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/pca_explained_var.png" />
 
@@ -69,17 +69,26 @@ By using the labels, UMAP can utilize them and create a supervised dimension red
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_sup.png" />
 
-* **Advantages of Umap:**
+* **Advantages of UMAP:**
   * Significantly faster than t-SNE
   * Capture global structure well
   * UMAP supports unsupervised, supervised and semi-supervised dimension reduction
 
-* **Disadvantages of Umap:**
+* **Disadvantages of UMAP:**
   * It is a new technique, the libraries and best practices have yet to be robust
 
 ## Linear Discriminant Analysis (LDA)
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/lda.png" />
+
+LDA is a supervised linear dimension reduction technique. LDA can be achieved by using two calculations. First, we need to calculate the distance between the mean of different classes as known as between-class variance. Second, we calculate the variance of each class as known as within-class variance. The aim of LDA is to maximize between-class variance and minimize within-class variance. 
+
+* **Advantages of LDA:**
+  * Easy to implement
+
+* **Disadvantages of LDA:**
+  * It is a supervised dimension reduction technique
+  * It requires normal distribution assumption on features
 
 ## Isomap
 
