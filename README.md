@@ -54,15 +54,32 @@ Since our data has a high number of features (784) and it is highly recommended 
     * Can be improved using Barnes-Hut approximation to O(nlogn)
     * Or reduce number of dimensions beforehand by using other dimension reduction tools such as PCA or TruncatedSVD
   * Needs to hypertune the parameters such as perplexity and max_iter
-  * Only works well for visualization purposes and not dimensionality reduction
+  * It can only embedded into 2 or 3 dimensions, hence it is only good for visualization and not dimension reduction
+  * Does not preserve global structure
 
 ## Uniform Manifold Approximation and Projection (UMAP)
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_unsup.png" />
 
+UMAP is a state-of-the-art non-linear dimensionality reduction technique and at its core, works similarly to t-SNE. Both of the algorithms use graph layout algorithms to arrange data in low dimensional space. UMAP first constructs a high dimensional graph representation of the data. Then, it optimizes a low dimensional graph to be as structurally similar to the high dimensional graph as possible. Instead of using a perplexity value in t-SNE, UMAP defines nearest neighbours and minimum distance. The nearest neighbour will affect the influence given to global versus local information and minimum distance will affect how compactly packed the local parts are.
+
+By using the labels, UMAP can utilize them and create a supervised dimension reduction. 
+
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_sup.png" />
 
+* **Advantages of Umap:**
+  * Significantly faster than t-SNE
+  * Capture global structure well
+  * UMAP supports unsupervised, supervised and semi-supervised dimension reduction
+
+* **Disadvantages of Umap:**
+  * It is a new technique, the libraries and best practices have yet to be robust
+
 ## Linear Discriminant Analysis (LDA)
+
+## Isomap
+
+## Locally-linear Embedding (LLE)
 
 ## Comparison
 
@@ -73,6 +90,6 @@ Since our data has a high number of features (784) and it is highly recommended 
 **Data Source:**
 https://www.kaggle.com/zalando-research/fashionmnist  
 **Resources:**  
-* https://towardsdatascience.com/dimensionality-reduction-for-data-visualization-pca-vs-tsne-vs-umap-be4aa7b1cb29  
+* https://pair-code.github.io/understanding-umap/
 * V.S, S., & Surendran, S. (2015). A Review of Various Linear and Non Linear Dimensionality Reduction Techniques.  
 * Roweis, S. T. (2000). Nonlinear Dimensionality Reduction by Locally Linear Embedding. Science, 290(5500), 2323–2326.
