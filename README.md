@@ -114,7 +114,7 @@ By using the labels, UMAP can utilize them and create a supervised dimension red
 ### Run Time
 
 | Dimension Reduction Technique | Type | Run Time |
-| :---: | :---: | :---: |
+| :---: | :---: | ---: |
 | LDA | Supervised | 13.97s |
 | UMAP | Supervised | 82.31s |
 | PCA | Unsupervised | 5.98s |
