@@ -10,6 +10,8 @@
    * [t-distributed Stochastic Neighbor Embedding (t-SNE)](#t-distributed-Stochastic-Neighbor-Embedding-t-SNE)
    * [Uniform Manifold Approximation and Projection (UMAP)](#Uniform-Manifold-Approximation-and-Projection-UMAP)
    * [Linear Discriminant Analysis (LDA)](#Linear-Discriminant-Analysis-LDA)
+   * [Isomap](#Isomap)
+   * [Locally-Linear Embedding (LLE)](#Locally-linear-Embedding-LLE)
    * [Comparison](#comparison)
    * [Code and Resources Used](#code-and-resources-used)
 <!--te-->
@@ -76,6 +78,8 @@ By using the labels, UMAP can utilize them and create a supervised dimension red
   * It is a new technique, the libraries and best practices have yet to be robust
 
 ## Linear Discriminant Analysis (LDA)
+
+<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/lda.png" />
 
 ## Isomap
 
