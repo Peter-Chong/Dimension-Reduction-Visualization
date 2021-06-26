@@ -5,20 +5,30 @@
 ## Table of Contents  
 
 <!--ts-->
+   * [Project Overview](#project-overview)
    * [Dimension Reduction Approaches](#dimension-reduction-approaches)
    * [Principal Component Analysis (PCA)](#Principal-Component-Analysis-PCA)
+   * [Linear Discriminant Analysis (LDA)](#Linear-Discriminant-Analysis-LDA)
    * [t-distributed Stochastic Neighbor Embedding (t-SNE)](#t-distributed-Stochastic-Neighbor-Embedding-t-SNE)
    * [Uniform Manifold Approximation and Projection (UMAP)](#Uniform-Manifold-Approximation-and-Projection-UMAP)
-   * [Linear Discriminant Analysis (LDA)](#Linear-Discriminant-Analysis-LDA)
-   * [Isomap](#Isomap)
-   * [Locally-Linear Embedding (LLE)](#Locally-linear-Embedding-LLE)
    * [Comparison](#comparison)
    * [Code and Resources Used](#code-and-resources-used)
 <!--te-->
 
+## Project Overview
+
+We will be using four different dimensionality reduction techniques on Fashion MNIST dataset.
+
+| Dimension Reduction Technique | Year Released | Linearity | Type |
+| :---: | :---: | :---: |
+| PCA | 1930 | Linear | Unsupervised |
+| LDA | 1936 | Linear | Supervised |
+| t-SNE | 2008 | Non-Linear | Unsupervised |
+| UMAP | 2018 | Non-Linear | Both |
+
 ## Dimension Reduction Approaches
 
-There are two main types of dimension reduction techniques. Either by choosing the most important features or combine the existing features to create new features. In this repository, we will be using the latter technique on Fashion MNIST dataset. This technique can further be broken down into two different methods, linear and non-linear (manifold learning). 
+There are two main types of dimension reduction techniques. Either by choosing the most important features or combine the existing features to create new features. In this repository, we will be using the latter technique. This technique can further be broken down into two different methods, linear and non-linear (manifold learning). 
 
 * **Linear:** This method transforms the data to a low dimension space as a linear combination of the original variables. This is applicable when the data is in a linear subspace and the original variables will be replaced by a smaller set of variables. 
 * **Non-linear (manifold learning):** This method is applied when the original high dimensional data contains non-linear relationships. The lower dimensional representation of the data will be achieved while preserving the original distances between the data points.
@@ -38,6 +48,20 @@ PCA is a linear dimensionality reduction technique. The aim of PCA is to derive 
   * Does not work well if data is non-linear
   * Does not work well on categorical variables
   * It is difficult to interpret as principal components are linear combinations of the original features
+
+## Linear Discriminant Analysis (LDA)
+
+<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/lda.png" />
+
+LDA is a supervised linear dimensionality reduction technique. LDA can be achieved by using two calculations. First, we calculate the distance between the mean of different classes or known as between-class variance. Second, we calculate the variance of each class which is known as within-class variance. The aim of LDA is to maximize between-class variance and minimize within-class variance. 
+
+* **Advantages of LDA:**
+  * Easy to implement
+
+* **Disadvantages of LDA:**
+  * Requires a label column as it is a supervised dimension reduction technique
+  * Requires normal distribution assumption on features
+  * Does not work well if data is non-linear
 
 ## t-distributed Stochastic Neighbor Embedding (t-SNE)
 
@@ -76,24 +100,6 @@ By using the labels, UMAP can utilize them and create a supervised dimension red
 
 * **Disadvantages of UMAP:**
   * It is a new technique, the libraries and best practices have yet to be robust
-
-## Linear Discriminant Analysis (LDA)
-
-<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/lda.png" />
-
-LDA is a supervised linear dimension reduction technique. LDA can be achieved by using two calculations. First, we need to calculate the distance between the mean of different classes as known as between-class variance. Second, we calculate the variance of each class as known as within-class variance. The aim of LDA is to maximize between-class variance and minimize within-class variance. 
-
-* **Advantages of LDA:**
-  * Easy to implement
-
-* **Disadvantages of LDA:**
-  * It is a supervised dimension reduction technique
-  * It requires normal distribution assumption on features
-  * Does not work well if data is non-linear
-
-## Isomap
-
-## Locally-linear Embedding (LLE)
 
 ## Comparison
 
