@@ -105,11 +105,11 @@ By using the labels, UMAP can utilize them and create a supervised dimension red
 
 ### Supervised Dimension Reduction
 
-<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/lda_small.png" width="275" /><img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_sup_small.png" width="275" />
+<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/lda_small.png" width="412" /><img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_sup_small.png" width="412" />
 
 ### Unsupervised Dimension Reduction
 
-<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/pca_small.png" width="275" /><img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/tsne_small.png" width="275" /><img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_unsup_small.png" width="275" />
+<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/pca_small.png" width="275" /><img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/tsne_small.png" width="275" /><img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_unsup_small.png" width="275" height="275"/>
 
 
 
