@@ -89,6 +89,7 @@ LDA is a supervised linear dimension reduction technique. LDA can be achieved by
 * **Disadvantages of LDA:**
   * It is a supervised dimension reduction technique
   * It requires normal distribution assumption on features
+  * Does not work well if data is non-linear
 
 ## Isomap
 
