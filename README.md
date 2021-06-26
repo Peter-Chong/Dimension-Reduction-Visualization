@@ -129,5 +129,6 @@ By using the labels, UMAP can utilize them and create a supervised dimension red
 https://www.kaggle.com/zalando-research/fashionmnist  
 **Resources:**  
 * https://pair-code.github.io/understanding-umap/
+* https://towardsdatascience.com/dimensionality-reduction-for-data-visualization-pca-vs-tsne-vs-umap-be4aa7b1cb29
 * V.S, S., & Surendran, S. (2015). A Review of Various Linear and Non Linear Dimensionality Reduction Techniques.  
 * Roweis, S. T. (2000). Nonlinear Dimensionality Reduction by Locally Linear Embedding. Science, 290(5500), 2323–2326.
