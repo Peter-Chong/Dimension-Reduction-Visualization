@@ -111,7 +111,15 @@ By using the labels, UMAP can utilize them and create a supervised dimension red
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/pca_small.png" width="275" /><img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/tsne_small.png" width="275" /><img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_unsup_small.png" width="275" height="139"/>
 
+### Run Time
 
+| Dimension Reduction Technique | Type | Run Time |
+| :---: | :---: | :---: |
+| LDA | Supervised | 13.97s |
+| UMAP | Supervised | 82.31s |
+| PCA | Unsupervised | 5.98s |
+| t-SNE | Unsupervised | 1180.41s |
+| UMAP | Unsupervised | 70.56s |
 
 ## Code and Resources Used
 
