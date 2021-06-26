@@ -11,7 +11,7 @@
    * [Linear Discriminant Analysis (LDA)](#Linear-Discriminant-Analysis-LDA)
    * [t-distributed Stochastic Neighbor Embedding (t-SNE)](#t-distributed-Stochastic-Neighbor-Embedding-t-SNE)
    * [Uniform Manifold Approximation and Projection (UMAP)](#Uniform-Manifold-Approximation-and-Projection-UMAP)
-   * [Comparison and Summary](#comparison-and-summary)
+   * [Comparison of Techniques](#Comparison-of-Techniques)
    * [Code and Resources Used](#code-and-resources-used)
 <!--te-->
 
@@ -101,7 +101,7 @@ By using the labels, UMAP can utilize them and create a supervised dimension red
 * **Disadvantages of UMAP:**
   * It is a new technique, the libraries and best practices have yet to be robust
 
-## Comparison and Summary
+## Comparison of Techniques
 
 ### Supervised Dimension Reduction
 
