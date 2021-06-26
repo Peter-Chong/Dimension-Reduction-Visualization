@@ -105,7 +105,7 @@ By using the labels, UMAP can utilize them and create a supervised dimension red
 
 ### Supervised Dimension Reduction
 
-<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/lda_small.png" width="412" /><img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_sup_small.png" width="412" height="200" />
+<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/lda_small.png" width="412" /><img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_sup_small.png" width="412" height="210" />
 
 ### Unsupervised Dimension Reduction
 
