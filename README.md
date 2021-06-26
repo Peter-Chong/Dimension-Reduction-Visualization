@@ -58,6 +58,10 @@ Since our data has a high number of features (784) and it is highly recommended 
 
 ## Uniform Manifold Approximation and Projection (UMAP)
 
+<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_unsup.png" />
+
+<img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_sup.png" />
+
 ## Linear Discriminant Analysis (LDA)
 
 ## Comparison
