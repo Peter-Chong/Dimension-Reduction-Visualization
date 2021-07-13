@@ -33,7 +33,7 @@ There are two main types of dimension reduction techniques. Either by choosing t
 * **Linear:** This method transforms the data to a low dimension space as a linear combination of the original variables. This is applicable when the data is in a linear subspace and the original variables will be replaced by a smaller set of variables. 
 * **Non-linear (manifold learning):** This method is applied when the original high dimensional data contains non-linear relationships. The lower dimensional representation of the data will be achieved while preserving the original distances between the data points.
 
-## [Principal Component Analysis (PCA)](https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Algorithms/PCA.ipynb)
+## [Principal Component Analysis (PCA)](https://nbviewer.jupyter.org/github/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Algorithms/PCA.ipynb)
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/pca_2d.png" />
 
@@ -63,7 +63,7 @@ LDA is a supervised linear dimensionality reduction technique. LDA can be achiev
   * Requires normal distribution assumption on features
   * Does not work well if data is non-linear
 
-## t-distributed Stochastic Neighbor Embedding (t-SNE)
+## [t-distributed Stochastic Neighbor Embedding (t-SNE)](https://nbviewer.jupyter.org/github/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Algorithms/t-SNE.ipynb)
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/tsne_2d.png" />
 
@@ -83,7 +83,7 @@ Since our data has a high number of features (784) and it is highly recommended 
   * It can only embedded into 2 or 3 dimensions, hence it is only good for visualization and not dimension reduction
   * Does not preserve global structure
 
-## Uniform Manifold Approximation and Projection (UMAP)
+## [Uniform Manifold Approximation and Projection (UMAP)](https://nbviewer.jupyter.org/github/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Algorithms/UMAP.ipynb)
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_unsup.png" />
 
