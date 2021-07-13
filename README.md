@@ -33,7 +33,7 @@ There are two main types of dimension reduction techniques. Either by choosing t
 * **Linear:** This method transforms the data to a low dimension space as a linear combination of the original variables. This is applicable when the data is in a linear subspace and the original variables will be replaced by a smaller set of variables. 
 * **Non-linear (manifold learning):** This method is applied when the original high dimensional data contains non-linear relationships. The lower dimensional representation of the data will be achieved while preserving the original distances between the data points.
 
-## Principal Component Analysis (PCA)
+## [Principal Component Analysis (PCA)](https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Algorithms/PCA.ipynb)
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/pca_2d.png" />
 
