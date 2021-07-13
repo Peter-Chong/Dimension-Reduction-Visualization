@@ -49,7 +49,7 @@ PCA is a linear dimensionality reduction technique. The aim of PCA is to derive 
   * Does not work well on categorical variables
   * It is difficult to interpret as principal components are linear combinations of the original features
 
-## Linear Discriminant Analysis (LDA)
+## [Linear Discriminant Analysis (LDA)](https://nbviewer.jupyter.org/github/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Algorithms/LDA.ipynb)
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/lda.png" />
 
