@@ -5,6 +5,7 @@
 ## Table of Contents  
 
 <!--ts-->
+   * [Problem Statement](#problem-statement)
    * [Project Overview](#project-overview)
    * [Dimension Reduction Approaches](#dimension-reduction-approaches)
    * [Principal Component Analysis (PCA)](#Principal-Component-Analysis-PCA)
@@ -14,6 +15,13 @@
    * [Comparison of Techniques](#Comparison-of-Techniques)
    * [Code and Resources Used](#code-and-resources-used)
 <!--te-->
+
+## Problem Statement
+
+With high dimensional data, we are faced with some of the following problems:
+ - High computational cost
+ - Difficult to visualize
+ - Curse of dimensionality (Occurs when number of features >> number of rows)
 
 ## Project Overview
 
