@@ -2,20 +2,6 @@
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/F1.large.jpg" width="900" height="230" />
 
-## Table of Contents  
-
-<!--ts-->
-   * [Problem Statement](#problem-statement)
-   * [Project Overview](#project-overview)
-   * [Dimension Reduction Approaches](#dimension-reduction-approaches)
-   * [Principal Component Analysis (PCA)](#Principal-Component-Analysis-PCA)
-   * [Linear Discriminant Analysis (LDA)](#Linear-Discriminant-Analysis-LDA)
-   * [t-distributed Stochastic Neighbor Embedding (t-SNE)](#t-distributed-Stochastic-Neighbor-Embedding-t-SNE)
-   * [Uniform Manifold Approximation and Projection (UMAP)](#Uniform-Manifold-Approximation-and-Projection-UMAP)
-   * [Comparison of Techniques](#Comparison-of-Techniques)
-   * [Code and Resources Used](#code-and-resources-used)
-<!--te-->
-
 ## Problem Statement
 
 With high dimensional data, we are faced with some of the following problems:
