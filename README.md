@@ -30,8 +30,8 @@ We will be using four different dimensionality reduction techniques on Fashion M
 
 There are two main types of dimension reduction techniques. Either by choosing the most important features or combine the existing features to create new features. In this repository, we will be using the latter technique. This technique can further be broken down into two different methods, linear and non-linear (manifold learning). 
 
-* **Linear:** This method transforms the data to a low dimension space as a linear combination of the original variables. This is applicable when the data is in a linear subspace and the original variables will be replaced by a smaller set of variables. 
-* **Non-linear (manifold learning):** This method is applied when the original high dimensional data contains non-linear relationships. The lower dimensional representation of the data will be achieved while preserving the original distances between the data points.
+* **Linear:** This method transforms the data to a low-dimension space as a linear combination of the original variables. This is applicable when the data is in a linear subspace and the original variables will be replaced by a smaller set of variables. 
+* **Non-linear (manifold learning):** This method is applied when the original high-dimensional data contains non-linear relationships. The lower-dimensional representation of the data will be achieved while preserving the original distances between the data points.
 
 ## [Principal Component Analysis (PCA)](https://nbviewer.jupyter.org/github/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Algorithms/PCA.ipynb)
 
@@ -78,16 +78,16 @@ Since our data has a high number of features (784) and it is highly recommended 
 * **Disadvantages of t-SNE:**
   * Computational complexity of O(n^2)
     * Can be improved using Barnes-Hut approximation to O(nlogn)
-    * Or reduce number of dimensions beforehand by using other dimension reduction tools such as PCA or TruncatedSVD
+    * Or reduce the number of dimensions beforehand by using other dimension reduction tools such as PCA or TruncatedSVD
   * Needs to hypertune the parameters such as perplexity and max_iter
-  * It can only embedded into 2 or 3 dimensions, hence it is only good for visualization and not dimension reduction
-  * Does not preserve global structure
+  * It can only be embedded into 2 or 3 dimensions, hence it is only good for visualization and not dimension reduction
+  * Does not preserve the global structure
 
 ## [Uniform Manifold Approximation and Projection (UMAP)](https://nbviewer.jupyter.org/github/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Algorithms/UMAP.ipynb)
 
 <img src="https://github.com/Peter-Chong/Dimension-Reduction-Visualization/blob/main/Images/umap_unsup.png" />
 
-UMAP is a state-of-the-art non-linear dimensionality reduction technique and at its core, works similarly to t-SNE. Both of the algorithms use graph layout algorithms to arrange data in low dimensional space. UMAP first constructs a high dimensional graph representation of the data. Then, it optimizes a low dimensional graph to be as structurally similar to the high dimensional graph as possible. Instead of using a perplexity value in t-SNE, UMAP defines nearest neighbours and minimum distance. The nearest neighbour will affect the influence given to global versus local information and minimum distance will affect how compactly packed the local parts are.
+UMAP is a state-of-the-art non-linear dimensionality reduction technique and at its core, works similarly to t-SNE. Both of the algorithms use graph layout algorithms to arrange data in low dimensional space. UMAP first constructs a high-dimensional graph representation of the data. Then, it optimizes a low dimensional graph to be as structurally similar to the high dimensional graph as possible. Instead of using a perplexity value in t-SNE, UMAP defines nearest neighbors and minimum distance. The nearest neighbor will affect the influence given to global versus local information and minimum distance will affect how compactly packed the local parts are.
 
 By using the labels, UMAP can utilize them and create a supervised dimension reduction. 
 
